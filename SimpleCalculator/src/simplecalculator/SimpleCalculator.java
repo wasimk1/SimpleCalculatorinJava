@@ -21,7 +21,7 @@ public class SimpleCalculator {
         System.out.print("Enter the 2nd number= ");
         num2 = sc.nextDouble();
 
-        System.out.println("Choose the mode of Operator below:\n1: Addition\n2: Substractions\n3: Multiplication\n4: Division");
+        System.out.println("Choose mode of Operator below:\n1: Addition\n2: Substractions\n3: Multiplication\n4: Division");
         select = sc.nextInt();
         switch (select) {
             case 1:
